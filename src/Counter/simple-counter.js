@@ -15,7 +15,6 @@ const SimpleCounter = {
   lastName: 'Smith',
   name: ({ firstName, lastName }) => `${firstName} ${lastName}`,
   render: ({ _count }) => html`
-    <simple-button></simple-button>
     ${plusButton}
     ${minusButton}
     <p>${_count}</p>
