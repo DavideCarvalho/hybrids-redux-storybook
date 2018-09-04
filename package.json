@@ -1,0 +1,32 @@
+{
+  "name": "hybrids",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html",
+    "storybook": "start-storybook -p 9001 -c .storybook -s ./"
+  },
+  "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "hybrids": "1.3.1",
+    "redux": "4.0.0",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-thunk": "2.3.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "devDependencies": {
+    "@storybook/polymer": "4.0.0-alpha.4",
+    "babel-core": "6.26.3",
+    "eslint": "4.19.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "lit-html": "0.11.0",
+    "parcel-bundler": "1.9.7",
+    "polymer-webpack-loader": "2.0.3",
+    "react": "16.4.2",
+    "react-dom": "16.4.2"
+  }
+}
